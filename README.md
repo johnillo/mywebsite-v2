@@ -1,4 +1,6 @@
-# my-landing-page
+# Personal Website
+
+Website for personal use. Created with Vue and statically generated with Nuxt.
 
 ## Build Setup
 

@@ -1,7 +1,7 @@
 <template>
   <ul class="mt-4">
     <li class="inline-block mr-4">
-      <a href="#" class="hover:underline">About</a>
+      <NuxtLink to="about" class="hover:underline">About</NuxtLink>
     </li>
     <li class="inline-block mr-4">
       <a href="#" class="hover:underline">Projects</a>

@@ -12,8 +12,14 @@ export default {
     ]
   },
 
+  publicRuntimeConfig: {
+    sns: {
+      github: 'johnillo'
+    }
+  },
+
   css: [
-    '~assets/scss/global.scss'
+    '~assets/css/global.css'
   ],
 
   plugins: [
@@ -26,6 +32,7 @@ export default {
   ],
 
   modules: [
+    '@nuxt/content'
   ],
 
   build: {

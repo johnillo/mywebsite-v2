@@ -85,15 +85,9 @@
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="postcss">
 .skill-tag {
-  font-size: 0.95em;
-  background-color: #cbd5e0;
-  border-radius: 0.25em;
-  color: #1a202c;
-  display: inline-block;
-  margin: 0 0.75em 0.75em 0;
-  padding: 0 1em;
+  @apply text-sm bg-gray-400 rounded text-gray-900 inline-block mr-1 mb-2 px-2;
 }
 </style>
 

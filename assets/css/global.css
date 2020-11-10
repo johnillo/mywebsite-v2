@@ -1,0 +1,37 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html, body {
+  height: 100%;
+  margin: 0;
+  min-height: 100% !important;
+  padding: 0;
+}
+
+body {
+  background-color: #ededed;
+  color: #1a202c;
+  position: relative;
+}
+
+#__nuxt, #__layout {
+  display: block;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+a.text-link {
+  @apply text-blue-700;
+}
+
+a.text-link:hover {
+  @apply underline;
+}
+
+a.external-link:after {
+  content: '↗';
+  display: inline-block;
+  margin-left: 0.25em;
+}

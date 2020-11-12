@@ -1,0 +1,70 @@
+{
+  "about": {
+    "experiences": [
+      {
+        "company": "Bizwind Philippines, Inc.",
+        "position": "Software Developer",
+        "period": "2018 APR - PRESENT",
+        "description": "Designs, maintains, and creates various in-house and client web applications."
+      },
+      {
+        "company": "",
+        "position": "Freelance Software Developer",
+        "period": "2015 - PRESENT",
+        "description": "Personal and commission projects development. "
+      },
+      {
+        "company": "Infopiphany IT Solutions",
+        "position": "Software Developer",
+        "period": "2017 JUN - 2018 MAR",
+        "description": "Development of mobile and desktop ERP systems using .NET framework, RESTful web services, and React Native."
+      }
+    ],
+    "skills": {
+      "Languages": [
+        "C#",
+        "HTML/CSS",
+        "Java",
+        "JavaScript",
+        "PHP",
+        "Python",
+        "SQL"
+      ],
+      "Frameworks": [
+        "Bootstrap",
+        "CakePHP",
+        "EC-CUBE",
+        "Entity Framework",
+        "Node",
+        "React",
+        "React Native",
+        "Spring",
+        "Symfony",
+        "WordPress",
+        ".NET (WinForms)"
+      ],
+      "Development": [
+        "Git",
+        "Gulp",
+        "Itamae",
+        "Jenkins",
+        "Shell",
+        "Vagrant",
+        "Vim",
+        "VirtualBox",
+        "Visual Studio",
+        "VS Code",
+        "Webpack"
+      ],
+      "Infrastructure": [
+        "Apache",
+        "Docker",
+        "MySQL",
+        "Nginx",
+        "PostgreSQL",
+        "SQLite",
+        "Tomcat"
+      ]
+    }
+  }
+}

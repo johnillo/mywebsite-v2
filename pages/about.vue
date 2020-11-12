@@ -32,7 +32,7 @@
       </div>
     </div>
     <h1 class="text-3xl my-4 mt-8 border-b border-gray-400">Skills</h1>
-    <h3 class="text-xl my-4">Languages</h3>
+    <h3 class="text-xl mt-4 mb-2">Languages</h3>
     <ul>
       <li class="skill-tag">C#</li>
       <li class="skill-tag">HTML/CSS</li>
@@ -42,7 +42,7 @@
       <li class="skill-tag">Python</li>
       <li class="skill-tag">SQL</li>
     </ul>
-    <h3 class="text-xl my-4">Frameworks</h3>
+    <h3 class="text-xl mt-4 mb-2">Frameworks</h3>
     <ul>
       <li class="skill-tag">Bootstrap</li>
       <li class="skill-tag">CakePHP</li>
@@ -56,7 +56,7 @@
       <li class="skill-tag">WordPress</li>
       <li class="skill-tag">.NET (WinForms)</li>
     </ul>
-    <h3 class="text-xl my-4">Development</h3>
+    <h3 class="text-xl mt-4 mb-2">Development</h3>
     <ul>
       <li class="skill-tag">Git</li>
       <li class="skill-tag">Gulp</li>
@@ -70,7 +70,7 @@
       <li class="skill-tag">VS Code</li>
       <li class="skill-tag">Webpack</li>
     </ul>
-    <h3 class="text-xl my-4">Infrastructure</h3>
+    <h3 class="text-xl mt-4 mb-2">Infrastructure</h3>
     <ul class="mb-6">
       <li class="skill-tag">Apache</li>
       <li class="skill-tag">Docker</li>

@@ -1,38 +1,40 @@
 <template>
   <div class="container mx-auto px-4 sm:md-0 py-4 leading-relaxed">
     <NuxtLink to="/" class="hover:underline text-blue-700 mb-4">← Back</NuxtLink>
-    <h1 class="text-3xl my-4 border-b border-gray-400">Projects</h1>
+    <h1 class="text-3xl mt-4 mb-6 border-b border-gray-400">Projects</h1>
     <div>
-      <article class="mb-4">
-        <div class="font-bold text-lg mb-2">Resistor Calculator</div>
-        <div class="mb-2">A utility for calculating the resistance of a resistor.</div>
-        <a href="https://johnillo.github.io/resistor-color-calculator/" class="external-link text-link mr-2" target="_blank">Open App</a>
-        <a href="https://github.com/johnillo/resistor-color-calculator" class="external-link text-link mr-2" target="_blank">Open in GitHub</a>
-      </article>
-      <article>
-        <div class="font-bold text-lg mb-2">Hololive YouTube Subscriber Count</div>
-        <div class="mb-2">
-          View the number of YouTube subscribers of all Hololive VTubers.
-          A project of <a href="https://dreamwithnokz.dev/" class="text-link" target="_blank">@dreamwithnokz</a> that I contributed to.
+      <article class="mb-6" v-for="(project, index) in this.projects" :key="index">
+        <div class="font-bold text-lg">{{ project.name }}</div>
+        <div class="text-sm">
+          <a :href="project.url" class="external-link text-link mr-2" target="_blank">Open App</a>
+          <a :href="project.github" class="external-link text-link mr-2" target="_blank">Open in GitHub</a>
         </div>
-        <a href="https://hysc.vercel.app" class="external-link text-link mr-2" target="_blank">Open App</a>
-        <a href="https://github.com/DreamWithNokz/hololive-youtube-subscriber-count" class="external-link text-link mr-2" target="_blank">Open in GitHub</a>
+        <div class="my-2">{{ project.description }}</div>
+        <div class="inline-block text-sm mr-2 text-gray-800 px-2 bg-gray-400 rounded" v-for="(tech, index) in project.tech" :key="index">
+          {{ tech }}
+        </div>
       </article>
     </div>
   </div>
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        title: 'Projects - John Espiritu'
-      }
-    },
-    head() {
-      return {
-        title: this.title,
-      }
+export default {
+  async asyncData ({ $content }) {
+    const { projects } = await $content('projects').fetch()
+    return {
+      projects
     }
-  }
+  },
+  data() {
+    return {
+      title: 'Projects - John Espiritu',
+    }
+  },
+  head() {
+    return {
+      title: this.title,
+    }
+  },
+}
 </script>

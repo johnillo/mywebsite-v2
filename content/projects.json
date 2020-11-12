@@ -1,0 +1,27 @@
+{
+  "projects": [
+    {
+      "name": "Hololive YouTube Subscriber Count",
+      "description": "View the number of YouTube subscribers of all Hololive VTubers. A project of @dreamwithnokz that I contribute to.",
+      "url": "https://hysc.vercel.app",
+      "github": "https://github.com/DreamWithNokz/hololive-youtube-subscriber-count",
+      "tech": [
+        "React",
+        "Vercel",
+        "Next.js",
+        "YouTube API",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Resistor Color Calculator",
+      "description": "A simple utility for calculating the value of a resistor.",
+      "url": "https://johnillo.github.io/resistor-color-calculator/",
+      "github": "https://github.com/johnillo/resistor-color-calculator",
+      "tech": [
+        "Vue",
+        "JavaScript"
+      ]
+    }
+  ]
+}

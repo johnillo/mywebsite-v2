@@ -37,5 +37,13 @@ export default {
   ],
 
   build: {
+  },
+
+  content: {
+    markdown: {
+      prism: {
+        theme: 'prism-themes/themes/prism-nord.css'
+      }
+    }
   }
 }

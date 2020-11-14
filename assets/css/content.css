@@ -37,3 +37,13 @@
 .nuxt-content li ul, .nuxt-content li ol {
   @apply ml-4;
 }
+
+.nuxt-content img {
+  max-width: 420px;
+  width: 100%;
+}
+
+.nuxt-content code {
+  @apply text-red-800;
+  font-size: 0.9em;
+}

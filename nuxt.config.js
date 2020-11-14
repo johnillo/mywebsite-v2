@@ -28,6 +28,7 @@ export default {
   components: true,
 
   buildModules: [
+    '@nuxtjs/date-fns',
     '@nuxtjs/tailwindcss',
   ],
 

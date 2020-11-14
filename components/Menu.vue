@@ -7,7 +7,7 @@
       <NuxtLink to="projects" class="hover:underline">Projects</NuxtLink>
     </li>
     <li class="inline-block mr-4">
-      <a href="#" class="hover:underline">Blog</a>
+      <NuxtLink to="blog" class="hover:underline">Blog</NuxtLink>
     </li>
     <li class="inline-block">
       <a :href="`https://github.com/${$config.sns.github}`" class="hover:underline" target="_blank" rel="noopener">GitHub</a>

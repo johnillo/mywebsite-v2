@@ -11,8 +11,8 @@
       </div>
     </div>
     <h1 class="text-3xl my-4 mt-8 border-b border-gray-400">Skills</h1>
-    <template v-for="(skills, area) in about.skills">
-      <h3 class="text-xl mt-4 mb-2" :key="area">{{ area }}</h3>
+    <template v-for="(skills, area, index) in about.skills">
+      <h3 class="text-xl mt-4 mb-2" :key="`${area}-${index}`">{{ area }}</h3>
       <ul class="mb-4" :key="area">
         <li v-for="(skill, index) in skills" class="skill-tag" :key="index">{{ skill }}</li>
       </ul>

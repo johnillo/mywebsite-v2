@@ -14,13 +14,13 @@ It is hard to find an MX Ergo in computer stores in my neck of the woods, but lu
 
 <figure>
   <a href="/media/repairing-my-logitech-mx-ergo-01.jpg" target="_blank">
-    <img src="/media/repairing-my-logitech-mx-ergo-01.jpg" />
+    <img class="sm" src="/media/repairing-my-logitech-mx-ergo-01.jpg" />
   </a>
   <a href="/media/repairing-my-logitech-mx-ergo-02.jpg" target="_blank">
-    <img src="/media/repairing-my-logitech-mx-ergo-02.jpg" />
+    <img class="sm" src="/media/repairing-my-logitech-mx-ergo-02.jpg" />
   </a>
   <a href="/media/repairing-my-logitech-mx-ergo-03.jpg" target="_blank">
-    <img src="/media/repairing-my-logitech-mx-ergo-03.jpg" />
+    <img class="sm" src="/media/repairing-my-logitech-mx-ergo-03.jpg" />
   </a>
   <figcaption>Just received the new SSD from delivery</figcaption>
 </figure>
@@ -113,19 +113,19 @@ Over time, the copper spring loses tension due to repeated clicks. We need to be
 
 <figure>
   <a href="/media/repairing-my-logitech-mx-ergo-12.jpg" target="_blank">
-    <img src="/media/repairing-my-logitech-mx-ergo-12.jpg" />
-  </a>
-  <a href="/media/repairing-my-logitech-mx-ergo-13.jpg" target="_blank">
-    <img src="/media/repairing-my-logitech-mx-ergo-13.jpg" />
+    <img class="sm" src="/media/repairing-my-logitech-mx-ergo-12.jpg" />
   </a>
   <a href="/media/repairing-my-logitech-mx-ergo-14.jpg" target="_blank">
-    <img src="/media/repairing-my-logitech-mx-ergo-14.jpg" />
+    <img class="sm" src="/media/repairing-my-logitech-mx-ergo-14.jpg" />
+  </a>
+  <a href="/media/repairing-my-logitech-mx-ergo-13.jpg" target="_blank">
+    <img class="sm" src="/media/repairing-my-logitech-mx-ergo-13.jpg" />
   </a>
   <a href="/media/repairing-my-logitech-mx-ergo-15.jpg" target="_blank">
-    <img src="/media/repairing-my-logitech-mx-ergo-15.jpg" />
+    <img class="sm" src="/media/repairing-my-logitech-mx-ergo-15.jpg" />
   </a>
   <a href="/media/repairing-my-logitech-mx-ergo-16.jpg" target="_blank">
-    <img src="/media/repairing-my-logitech-mx-ergo-16.jpg" />
+    <img class="sm" src="/media/repairing-my-logitech-mx-ergo-16.jpg" />
   </a>
   <figcaption>The copper tension spring</figcaption>
 </figure>
@@ -134,10 +134,10 @@ The re-installation of the copper spring is the most tedious and time-consuming 
 
 <figure>
   <a href="/media/repairing-my-logitech-mx-ergo-17.jpg" target="_blank">
-    <img src="/media/repairing-my-logitech-mx-ergo-17.jpg" />
+    <img class="sm" src="/media/repairing-my-logitech-mx-ergo-17.jpg" />
   </a>
   <a href="/media/repairing-my-logitech-mx-ergo-18.jpg" target="_blank">
-    <img src="/media/repairing-my-logitech-mx-ergo-18.jpg" />
+    <img class="sm" src="/media/repairing-my-logitech-mx-ergo-18.jpg" />
   </a>
   <figcaption>The right button spring before (left) and after (right) the repair</figcaption>
 </figure>
@@ -157,10 +157,10 @@ Do a final test of the switches after putting back the covers. Finally, reassemb
 
 <figure>
   <a href="/media/repairing-my-logitech-mx-ergo-20.jpg" target="_blank">
-    <img src="/media/repairing-my-logitech-mx-ergo-20.jpg" />
+    <img class="sm" src="/media/repairing-my-logitech-mx-ergo-20.jpg" />
   </a>
   <a href="/media/repairing-my-logitech-mx-ergo-21.jpg" target="_blank">
-    <img src="/media/repairing-my-logitech-mx-ergo-21.jpg" />
+    <img class="sm" src="/media/repairing-my-logitech-mx-ergo-21.jpg" />
   </a>
   <figcaption>My MX Ergo clicks properly again</figcaption>
 </figure>

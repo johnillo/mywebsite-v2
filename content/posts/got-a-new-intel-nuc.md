@@ -53,10 +53,10 @@ The unit has a glossy front panel and top surface. I'm not a fan of such materia
 
 <figure>
   <a href="/media/got-a-new-intel-nuc-04.jpg" target="_blank">
-    <img src="/media/got-a-new-intel-nuc-04.jpg" />
+    <img class="sm" src="/media/got-a-new-intel-nuc-04.jpg" />
   </a>
   <a href="/media/got-a-new-intel-nuc-05.jpg" target="_blank">
-    <img src="/media/got-a-new-intel-nuc-05.jpg" />
+    <img class="sm" src="/media/got-a-new-intel-nuc-05.jpg" />
   </a>
   <figcaption>The NUC and power brick out of the box</figcaption>
 </figure>
@@ -74,10 +74,10 @@ It also includes the documents, "Intel Inside" sticker, standoff for 42mm M.2 SS
 
 <figure>
   <a href="/media/got-a-new-intel-nuc-07.jpg" target="_blank">
-    <img src="/media/got-a-new-intel-nuc-07.jpg" />
+    <img class="sm" src="/media/got-a-new-intel-nuc-07.jpg" />
   </a>
   <a href="/media/got-a-new-intel-nuc-08.jpg" target="_blank">
-    <img src="/media/got-a-new-intel-nuc-08.jpg" />
+    <img class="sm" src="/media/got-a-new-intel-nuc-08.jpg" />
   </a>
 </figure>
 
@@ -85,13 +85,13 @@ The NUC has sufficient ports for my needs. There are 3 USB 3.0 and 2 USB-C ports
 
 <figure>
   <a href="/media/got-a-new-intel-nuc-09.jpg" target="_blank">
-    <img src="/media/got-a-new-intel-nuc-09.jpg" />
+    <img class="sm" src="/media/got-a-new-intel-nuc-09.jpg" />
   </a>
   <a href="/media/got-a-new-intel-nuc-10.jpg" target="_blank">
-    <img src="/media/got-a-new-intel-nuc-10.jpg" />
+    <img class="sm" src="/media/got-a-new-intel-nuc-10.jpg" />
   </a>
   <a href="/media/got-a-new-intel-nuc-11.jpg" target="_blank">
-    <img src="/media/got-a-new-intel-nuc-11.jpg" />
+    <img class="sm" src="/media/got-a-new-intel-nuc-11.jpg" />
   </a>
 </figure>
 
@@ -108,13 +108,13 @@ I got the standard size M.2 storage, so I didn't need to put the standoff. I ins
 
 <figure>
   <a href="/media/got-a-new-intel-nuc-13.jpg" target="_blank">
-    <img src="/media/got-a-new-intel-nuc-13.jpg" />
+    <img class="sm" src="/media/got-a-new-intel-nuc-13.jpg" />
   </a>
   <a href="/media/got-a-new-intel-nuc-14.jpg" target="_blank">
-    <img src="/media/got-a-new-intel-nuc-14.jpg" />
+    <img class="sm" src="/media/got-a-new-intel-nuc-14.jpg" />
   </a>
   <a href="/media/got-a-new-intel-nuc-15.jpg" target="_blank">
-    <img src="/media/got-a-new-intel-nuc-15.jpg" />
+    <img class="sm" src="/media/got-a-new-intel-nuc-15.jpg" />
   </a>
 </figure>
 
@@ -122,10 +122,10 @@ The device fits and looks nice on the corner of my tiny desk. I put my Funko Pop
 
 <figure>
   <a href="/media/got-a-new-intel-nuc-16.jpg" target="_blank">
-    <img src="/media/got-a-new-intel-nuc-16.jpg" />
+    <img class="sm" src="/media/got-a-new-intel-nuc-16.jpg" />
   </a>
   <a href="/media/got-a-new-intel-nuc-17.jpg" target="_blank">
-    <img src="/media/got-a-new-intel-nuc-17.jpg" />
+    <img class="sm" src="/media/got-a-new-intel-nuc-17.jpg" />
   </a>
 </figure>
 

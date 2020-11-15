@@ -43,6 +43,10 @@
   width: 100%;
 }
 
+.nuxt-content img.sm {
+  max-height: 180px;
+}
+
 .nuxt-content code {
   @apply text-red-800;
   font-size: 0.9em;

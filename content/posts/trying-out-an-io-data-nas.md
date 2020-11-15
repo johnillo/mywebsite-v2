@@ -18,10 +18,10 @@ It is somewhat heavy with all the cartridges installed. There's a built-in lock 
 
 <figure>
   <a href="/media/trying-out-an-io-data-nas-02.jpg" target="_blank">
-    <img class="mb-4" src="/media/trying-out-an-io-data-nas-02.jpg" />
+    <img class="sm" src="/media/trying-out-an-io-data-nas-02.jpg" />
   </a>
   <a href="/media/trying-out-an-io-data-nas-03.jpg" target="_blank">
-    <img src="/media/trying-out-an-io-data-nas-03.jpg" />
+    <img class="sm" src="/media/trying-out-an-io-data-nas-03.jpg" />
   </a>
 </figure>
 

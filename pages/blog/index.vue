@@ -31,17 +31,17 @@
 <script>
 export default {
   async asyncData ({ $content }) {
-    const posts = await $content('posts').fetch()
+    const posts = await $content('posts').sortBy('createdAt', 'desc').fetch()
     return { posts }
   },
   methods: {
     async search (evt) {
       const keyword = evt.target.value
       if (keyword.trim() == '') {
-        this.posts = await this.$content('posts').fetch()
+        this.posts = await this.$content('posts').sortBy('createdAt', 'desc').fetch()
         return;
       }
-      this.posts = await this.$content('posts').search('title', keyword).fetch()
+      this.posts = await this.$content('posts').search(keyword).sortBy('createdAt', 'desc').fetch()
     }
   },
 }

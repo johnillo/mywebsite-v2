@@ -39,11 +39,40 @@
 }
 
 .nuxt-content img {
-  max-width: 420px;
+  max-height: 420px;
   width: 100%;
 }
 
 .nuxt-content code {
   @apply text-red-800;
   font-size: 0.9em;
+}
+
+.nuxt-content a {
+  @apply text-blue-700;
+}
+
+.nuxt-content a:hover {
+  @apply underline;
+}
+
+.nuxt-content figure figcaption {
+  @apply text-gray-800 text-sm mt-1;
+}
+
+.nuxt-content figure a {
+  @apply inline-block;
+}
+
+.nuxt-content table {
+  width: 100%;
+}
+
+.nuxt-content table td, .nuxt-content table th {
+  @apply border border-gray-400 px-2;
+}
+
+.nuxt-content table th {
+  @apply text-left uppercase;
+  background-color: #e7e9ee;
 }

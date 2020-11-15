@@ -8,7 +8,7 @@
     <div class="blog-index">
       <article class="mb-2" v-for="(post, index) in posts" :key="index">
         <NuxtLink :to="`/blog/${post.slug}`" class="hover:opacity-75">
-          <span class="text-xl p-0">{{ post.title }}</span>
+          <span class="text-xl p-0" :title="post.description">{{ post.title }}</span>
         </NuxtLink>
         <div class="text-sm text-gray-600 mr-2">
           {{ $dateFns.format(post.createdAt, 'yyyy/MM/dd') }}
@@ -33,6 +33,12 @@ export default {
   async asyncData ({ $content }) {
     const posts = await $content('posts').sortBy('createdAt', 'desc').fetch()
     return { posts }
+  },
+  data () {
+    return { title: 'Blog - John Espiritu' }
+  },
+  head () {
+    return { title: this.title }
   },
   methods: {
     async search (evt) {

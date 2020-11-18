@@ -1,7 +1,7 @@
 ---
 title: Creating a custom drop-down selection in WinForms (C#)
 description: A process on how to creating a custom dropdown component based on the UserControl for arbitrary value inputs and attaching it to a datagrid view. 
-tags: [personal, tutorial, c#, winforms]
+tags: [personal, tutorial, "C#", winforms]
 createdAt: 2020-10-15
 updatedAt: 2020-10-15
 ---

@@ -36,3 +36,8 @@ a.external-link:after {
   display: inline-block;
   margin-left: 0.25em;
 }
+
+input[type="text"].searchbox {
+  background-color: #f8f8f8;
+  border: 1px solid #cecece;
+}

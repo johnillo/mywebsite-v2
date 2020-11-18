@@ -14,7 +14,7 @@
       <nuxt-content :document="post" />
     </article>
     <footer class="border-t border-gray-400 pt-4 mb-8 text-sm text-gray-900">
-      <NuxtLink :to="`/blog/tagged/${tag}`" v-for="(tag, index) in post.tags" :key="index">
+      <NuxtLink :to="`/blog/tagged/${encodeURIComponent(tag)}`" v-for="(tag, index) in post.tags" :key="index">
         <span class="inline-block bg-gray-400 px-2 mr-2 rounded">
           {{ tag }}
         </span>

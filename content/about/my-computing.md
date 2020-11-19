@@ -1,7 +1,7 @@
 ---
 title: How I do my computing
 createdAt: 2020-07-01
-updatedAt: 2020.10.15
+updatedAt: 2020-10-15
 ---
 
 I spend most of my time in front of computers and electronic devices. I thought of creating this journal to document the evolution of my computing setup from time to time.

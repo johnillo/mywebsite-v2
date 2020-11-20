@@ -1,6 +1,18 @@
 {
   "projects": [
     {
+      "name": "Tipid - Savings Tracker",
+      "description": "Helps keep track of your income and expenses. Data are stored locally in the user's browser via IndexedDB.",
+      "url": "https://johnespiritu.dev/app/savings-tracker",
+      "github": "https://github.com/johnillo/tipid-savings-calculator",
+      "tech": [
+        "Vue",
+        "JavaScript",
+        "IndexedDB",
+        "Dexie"
+      ]
+    },
+    {
       "name": "Hololive YouTube Subscriber Count",
       "description": "View the number of YouTube subscribers of all Hololive VTubers. A project of @dreamwithnokz that I contribute to.",
       "url": "https://hysc.vercel.app",

@@ -3,7 +3,7 @@ title: Updated my website
 description: Updated by website to make it simple and easy to backup.
 tags: [personal, blogging]
 createdAt: 2020/11/22
-updatedAt: 2020/11/22
+updatedAt: 2020/11/24
 ---
 
 When [I first made this website](/blog/how-i-created-my-website) in March 2020, it was made of two parts:
@@ -32,7 +32,7 @@ I have developed static websites before using [Jekyll](https://jekyllrb.com/). H
 
 #### Nuxt.js
 
-[Nuxt.js](https://nuxtjs.org/) is a framework that supports static site generation from Vue source codes. I was studying Vue recently, and I find easier to use than React, although I can't say yet which one is better for larger projects.
+[Nuxt.js](https://nuxtjs.org/) is a framework that supports static site generation from Vue source codes. I was studying Vue recently, and I find it easier to use than React, although I can't say yet which one is better for larger projects.
 
 By using components, Vue allows code reuse to reduce the lines of code that I need to write and maintain. This helped me apply a consistent style and layout across the site and quickly swap elements depending on the page requirements.
 
@@ -46,7 +46,7 @@ To publish my site, I build it using `npm run generate` then serve the files in 
 
 ### Continuous Deployment with Github Actions
 
-Since I put the website's source in my [Github repository](https://github.com/johnillo/mywebsite-v2), I can harness the power of [Github Actions](https://github.com/features/actions) to create an automated build and deploy workflow. Here's my workflow:
+Since I put the website's source in my [Github repository](https://github.com/johnillo/mywebsite-v2), I can harness the power of [Github Actions](https://github.com/features/actions) to create an automated build and deploy workflow. Here's how it goes:
 
 1. Write the post in the local environment.
 2. Commit and push the updates to the Github repository.

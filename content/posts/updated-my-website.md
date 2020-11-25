@@ -3,7 +3,7 @@ title: Updated my website
 description: Updated by website to make it simple and easy to backup.
 tags: [personal, blogging]
 createdAt: 2020/11/22
-updatedAt: 2020/11/24
+updatedAt: 2020/11/25
 ---
 
 When [I first made this website](/blog/how-i-created-my-website) in March 2020, it was made of two parts:
@@ -54,7 +54,38 @@ Since I put the website's source in my [Github repository](https://github.com/jo
 4. The Github Action then uses SCP to transfer the output files from the `dist` directory to the public directory in my droplet served by Nginx.
     - The credentials used to access the droplet is stored in Github as [encrypted secrets](https://docs.github.com/en/free-pro-team@latest/actions/reference/encrypted-secrets).
 
-It was my first time using Github Actions, and I think that it's an essential tool every developer must know. I'll take advantage of this feature in my future projects.
+The Github Action is defined in YAML format similar to the one below:
+
+```yaml
+name: CI
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Static site generation
+        run: |
+          npm install
+          npm run generate
+      - name: SCP Files
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USER }}
+          key: ${{ secrets.KEY }}
+          source: "dist/*"
+          target: ${{ secrets.TARGET }}
+          strip_components: 1
+          rm: true
+```
+
+It was my first time setting up a continuous deployment using Github Actions, and I think that it's an essential tool every developer must know. I'll take advantage of this feature in my future projects.
 
 ### Wrap up
 

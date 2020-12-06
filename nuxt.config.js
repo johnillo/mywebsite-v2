@@ -24,6 +24,7 @@ export default {
   ],
 
   plugins: [
+    { src: '~/plugins/vue-matomo.js', ssr: false }
   ],
 
   components: true,

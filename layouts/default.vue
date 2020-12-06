@@ -3,6 +3,10 @@
 </template>
 
 <script>
-// start matomo analytics
-this.$matomo && this.$matomo.trackPageView()
+export default {
+  mounted () {
+    // start matomo analytics
+    this.$matomo && this.$matomo.trackPageView()
+  }
+}
 </script>

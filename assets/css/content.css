@@ -59,6 +59,10 @@
   @apply underline;
 }
 
+.nuxt-content blockquote {
+  @apply pl-4 border-l-2 border-red-600 text-gray-800;
+}
+
 .nuxt-content figure figcaption {
   @apply text-gray-800 text-sm mt-1;
 }

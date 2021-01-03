@@ -13,6 +13,7 @@
     <article class="mb-8">
       <nuxt-content :document="post" />
     </article>
+    <ScrollToTop />
   </div>
 </template>
 

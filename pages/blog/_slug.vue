@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto px-4 sm:md-0 py-4 leading-relaxed">
     <NuxtLink to="/blog" class="inline-block hover:underline text-blue-700 mb-4 px-0">← Blog</NuxtLink>
-    <h1 class="text-4xl border-b border-gray-400">{{ post.title }}</h1>
+    <h1 class="text-4xl border-b border-gray-400 leading-tight pb-2">{{ post.title }}</h1>
     <div class="mt-2 text-sm text-gray-800">
       <span>
         Posted at {{ $dateFns.format(post.createdAt, 'yyyy/MM/dd') }}
@@ -12,6 +12,7 @@
     </div>
     <article class="mb-8">
       <nuxt-content :document="post" />
+      <ScrollToTop />
     </article>
     <footer class="border-t border-gray-400 pt-4 mb-8 text-sm text-gray-900">
       <NuxtLink :to="`/blog/tagged/${encodeURIComponent(tag)}`" v-for="(tag, index) in post.tags" :key="index">

@@ -17,7 +17,7 @@
         <li v-for="(skill, index) in skills" class="skill-tag" :key="index">{{ skill }}</li>
       </ul>
     </template>
-    <NuxtLink to="/" class="hover:underline text-blue-700 my-4">← Back</NuxtLink>
+    <ScrollToTop />
   </div>
 </template>
 

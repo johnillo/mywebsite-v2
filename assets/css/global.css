@@ -41,3 +41,9 @@ input[type="text"].searchbox {
   background-color: #f8f8f8;
   border: 1px solid #cecece;
 }
+
+div.scroll-to-top {
+  @apply fixed py-2 px-4 shadow-lg bg-red-600 text-white uppercase rounded text-sm cursor-pointer;
+  bottom: 1em;
+  right: 1em;
+}

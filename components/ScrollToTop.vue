@@ -1,6 +1,6 @@
 <template>
   <div class="scroll-to-top" :class="{ 'hidden': this.hidden }" @click="this.scrollTop">
-    Top &#129045;
+    Top 🠕
   </div>
 </template>
 

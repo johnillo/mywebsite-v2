@@ -38,8 +38,16 @@ a.external-link:after {
 }
 
 input[type="text"].searchbox {
-  background-color: #f8f8f8;
-  border: 1px solid #cecece;
+  @apply mb-4 block py-2 px-4 w-full bg-gray-300 rounded border border-transparent;
+  --placeholder-opacity: 0.75;
+}
+
+input[type="text"].searchbox::placeholder {
+  @apply text-gray-800;
+}
+
+input[type="text"].searchbox:focus {
+  @apply outline-none bg-gray-100 border-orange-400 shadow-inner;
 }
 
 div.scroll-to-top {

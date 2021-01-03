@@ -3,7 +3,7 @@
     <NuxtLink to="/" class="hover:underline text-blue-700 mb-4">← Home</NuxtLink>
     <h1 class="text-3xl mt-4 mb-4">Blog</h1>
     <div>
-      <input class="searchbox mb-4 block py-2 px-4 w-full bg-gray-300 rounded" type="text" placeholder="Search posts" @input="search" />
+      <input class="searchbox" type="text" placeholder="Search" @input="search" />
     </div>
     <div class="blog-index">
       <article class="mb-2" v-for="(post, index) in posts" :key="index">

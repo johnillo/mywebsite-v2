@@ -4,7 +4,7 @@
     <h1 class="text-4xl border-b border-gray-400">{{ post.title }}</h1>
     <div class="mt-2 text-sm text-gray-800">
       <span>
-        Posted at {{ $dateFns.format(post.createdAt, 'yyyy/MM/dd') }}
+        Posted on {{ $dateFns.format(post.createdAt, 'yyyy/MM/dd') }}
       </span>
       <span v-if="$dateFns.format(post.createdAt, 'yyyy/MM/dd') != $dateFns.format(post.updatedAt, 'yyyy/MM/dd')">
         (Updated {{ $dateFns.format(post.updatedAt, 'yyyy/MM/dd') }})

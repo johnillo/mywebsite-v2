@@ -3,12 +3,12 @@ title: Kingston NVMe SSD issues on Manjaro Linux
 description: Troubleshooting a Kingston NVMe SSD that is randomly hanging on Manjaro Linux.
 tags: [personal, computing]
 createdAt: 2021-01-03
-updatedAt: 2021-01-03
+updatedAt: 2021-01-09
 ---
 
 [I got myself a new Intel NUC](/blog/got-a-new-intel-nuc) in October 2020. At the same time, I bought a Kingston A2000 500GB M.2 SSD that takes its NVMe slot. The drive contains my [Manjaro Linux](https://manjaro.org/) installation.
 
-Everything was fine at first. However, I would experience random crashes when I do some heavy (or sometimes normal) activities that involve disk I/O. When it crashes, the disk LED indicator blinks about three times (it flickers depending on disk activity) before turning off. After that, the desktop is either frozen or working but cannot load anything from the disk when I open an application or terminal.
+Everything was fine at first. However, I would experience random crashes when I do some heavy (or sometimes normal) activities that involve disk I/O. When it crashes, the disk LED indicator blinks about three times or more (it flickers depending on disk activity) before turning off. After that, the desktop is either frozen or working but cannot load anything from the disk when I open an application or terminal.
 
 As the standard troubleshooting procedure, I investigated the system logs for clues on why the drive crashed but didn't find anything at all. Most modern disk drives have SMART capabilities, so I installed `smartmontools` using pacman to access it and print a report for `/dev/nvme0n1`. To my chagrin, the report also shows no error logs.
 
@@ -112,8 +112,38 @@ But if APST works correctly, that state wouldn't be used at all:
 
 Nevertheless, I still set the `default_ps_max_latency_us` for the `nvme_core` kernel module to 30000 (30 ms) to match the total latency of my SSD's 4th state.
 
-#### Wrap up
-
 My SSD hasn't failed six days after the fix, even when building Docker images (a rather disk I/O intensive task). It seems that this Kingston A2000 NVMe SSD also has issues exposing its APST table similar to the Samsung 950, making the system unstable due to a power-saving state that the drive cannot use.
 
-I'll update this post if the problem persists.
+~I'll update this post if the problem persists.~
+
+#### 2020-01-09 Update
+
+The problem resurfaced when I transferred my Nuxt.js project files (uncompressed) from my work MacBook Pro to the NUC's Linux partition via `scp`. Happened twice, and I was able to get the error logs in a separate terminal session using `dmesg -w` on the second attempt:
+
+```
+nvme nvme0: I/O 10 QID 2 timeout, aborting
+nvme nvme0: I/O 11 QID 2 timeout, aborting
+nvme nvme0: I/O 12 QID 2 timeout, aborting
+nvme nvme0: I/O 13 QID 2 timeout, aborting
+nvme nvme0: I/O 14 QID 2 timeout, aborting
+nvme nvme0: I/O 10 QID 2 timeout, reset controller
+nvme nvme0: I/O 24 QID 0 timeout, reset controller
+nvme nvme0: Device not ready; aborting reset
+nvme nvme0: Abort status: 0x371
+nvme nvme0: Abort status: 0x371
+nvme nvme0: Abort status: 0x371
+nvme nvme0: Abort status: 0x371
+nvme nvme0: Abort status: 0x371
+nvme nvme0: Device not ready; aborting reset
+nvme nvme0: Removing after probe failure status: -19
+nvme nvme0: Device not ready; aborting reset
+nvme nvme0: failed to set APST feature (-19)
+```
+
+Coincidentally, the ArchWiki SSD NVMe page [troubleshooting section](https://wiki.archlinux.org/index.php/Solid_state_drive/NVMe#Controller_failure_due_to_broken_APST_support) was updated on Jan 8th. It states that Kingston A2000 drives with firmware S5Z42105 exhibit controller issues related to power saving.
+
+> As a workaround, add the kernel parameter `nvme_core.default_ps_max_latency_us=0` to completely disable APST, or set a custom threshold to disable specific states. 
+
+I ended up disabling the APST altogether for the drive. I restarted the machine and got the file transfer successful on the third attempt.
+
+Hoping this issue gets fixed on future kernel updates.

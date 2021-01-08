@@ -114,8 +114,6 @@ Nevertheless, I still set the `default_ps_max_latency_us` for the `nvme_core` ke
 
 My SSD hasn't failed six days after the fix, even when building Docker images (a rather disk I/O intensive task). It seems that this Kingston A2000 NVMe SSD also has issues exposing its APST table similar to the Samsung 950, making the system unstable due to a power-saving state that the drive cannot use.
 
-~I'll update this post if the problem persists.~
-
 #### 2020-01-09 Update
 
 The problem resurfaced when I transferred my Nuxt.js project files (uncompressed) from my work MacBook Pro to the NUC's Linux partition via `scp`. Happened twice, and I was able to get the error logs in a separate terminal session using `dmesg -w` on the second attempt:

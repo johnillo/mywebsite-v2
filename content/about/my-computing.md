@@ -1,7 +1,7 @@
 ---
 title: How I do my computing
 createdAt: 2020-07-01
-updatedAt: 2020-11-23
+updatedAt: 2021-02-12
 ---
 
 I spend most of my time in front of computers and electronic devices. I thought of creating this journal to document the evolution of my computing setup from time to time.
@@ -52,9 +52,13 @@ An urgent project at work prompted me to buy a new Windows machine to replace my
 
 You can read more about it [here](/blog/got-a-new-intel-nuc).
 
-#### M.2 SSD Crash Issues
+### External Display
 
-Recently, I was encountering frequent hard drive crash/hang on the m.2 SSD. I still don't have any clue what causes the crash, whether if it's defective hardware or some incompatibility with Manjaro, because the SMART assessment of the drive isn't showing any errors at all.
+#### Dell P2214H
+
+_Acquired on June 2020_
+
+A second-hand 1080p IPS monitor I bought from Lazada for around Php 3,500. It has an anti-glare surface and a highly adjustable stand - a perfect monitor for my standards.
 
 ## Accessories
 

@@ -3,7 +3,7 @@ title: Kingston NVMe SSD issues on Manjaro Linux
 description: Troubleshooting a Kingston NVMe SSD that is randomly hanging on Manjaro Linux.
 tags: [personal, computing]
 createdAt: 2021-01-03
-updatedAt: 2021-01-09
+updatedAt: 2021-02-13
 ---
 
 [I got myself a new Intel NUC](/blog/got-a-new-intel-nuc) in October 2020. At the same time, I bought a Kingston A2000 500GB M.2 SSD that takes its NVMe slot. The drive contains my [Manjaro Linux](https://manjaro.org/) installation.
@@ -114,7 +114,7 @@ Nevertheless, I still set the `default_ps_max_latency_us` for the `nvme_core` ke
 
 My SSD hasn't failed six days after the fix, even when building Docker images (a rather disk I/O intensive task). It seems that this Kingston A2000 NVMe SSD also has issues exposing its APST table similar to the Samsung 950, making the system unstable due to a power-saving state that the drive cannot use.
 
-#### 2020-01-09 Update
+###### 2021-01-09 Update
 
 The problem resurfaced when I transferred my Nuxt.js project files (uncompressed) from my work MacBook Pro to the NUC's Linux partition via `scp`. Happened twice, and I was able to get the error logs in a separate terminal session using `dmesg -w` on the second attempt:
 
@@ -145,3 +145,12 @@ Coincidentally, the ArchWiki SSD NVMe page [troubleshooting section](https://wik
 I ended up disabling the APST altogether for the drive. I restarted the machine and got the file transfer successful on the third attempt.
 
 Hoping this issue gets fixed on future kernel updates.
+
+###### 2021-02-13 Update
+
+Instead of completely disabling the APST, I only disabled the 4th power state. Nonetheless, my NUC doesn't crash anymore.
+
+###### Kernel Updates
+
+- [nvme-pci: avoid the deepest sleep state on Kingston A2000 SSDs](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=538e4a8c571efdf131834431e0c14808bcfb1004)
+

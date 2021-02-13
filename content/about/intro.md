@@ -3,7 +3,7 @@ title: About
 description: About John.
 ---
 
-## Hello
+# Hello
 
 I am a software engineer at Bizwind Philippines, working in an offshore team that handles the development and maintenance of web applications of various companies in Japan. I also design, develop, test, and deploy several products and in-house systems of the company.
 

@@ -18,6 +18,7 @@
         No posts found.
       </p>
     </div>
+    <Footer/>
   </div>
 </template>
 

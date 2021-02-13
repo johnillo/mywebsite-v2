@@ -15,6 +15,7 @@
         </div>
       </article>
     </div>
+    <Footer/>
   </div>
 </template>
 

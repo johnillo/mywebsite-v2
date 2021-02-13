@@ -3,7 +3,7 @@
 }
 
 .nuxt-content h2 {
-  @apply text-3xl border-b border-gray-400 my-4;
+  @apply text-2xl border-b border-gray-400 my-4;
 }
 
 .nuxt-content h3 {

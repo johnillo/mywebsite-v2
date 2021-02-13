@@ -5,6 +5,7 @@
       <h1 class="text-2xl uppercase">John Espiritu</h1>
       <div class="font-bold">Software Developer</div>
       <Menu />
+      <Footer/>
     </div>
   </div>
 </template>

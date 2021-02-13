@@ -21,6 +21,7 @@
         </span>
       </NuxtLink>
     </footer>
+    <Footer/>
   </div>
 </template>
 

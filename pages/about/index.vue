@@ -18,6 +18,7 @@
       </ul>
     </template>
     <ScrollToTop />
+    <Footer/>
   </div>
 </template>
 

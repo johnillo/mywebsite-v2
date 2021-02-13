@@ -3,10 +3,10 @@
     <Nav/>
     <h1 class="text-4xl mt-4 border-b border-gray-400">{{ post.title }}</h1>
     <div class="mt-2 text-sm text-gray-800">
-      <span>
+      <span v-if="!post.nodate">
         Posted on {{ $dateFns.format(post.createdAt, 'yyyy/MM/dd') }}
       </span>
-      <span v-if="$dateFns.format(post.createdAt, 'yyyy/MM/dd') != $dateFns.format(post.updatedAt, 'yyyy/MM/dd')">
+      <span v-if="!post.nodate && $dateFns.format(post.createdAt, 'yyyy/MM/dd') != $dateFns.format(post.updatedAt, 'yyyy/MM/dd')">
         (Updated {{ $dateFns.format(post.updatedAt, 'yyyy/MM/dd') }})
       </span>
     </div>
@@ -14,6 +14,7 @@
       <nuxt-content :document="post" />
     </article>
     <ScrollToTop />
+    <Footer/>
   </div>
 </template>
 

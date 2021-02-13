@@ -35,11 +35,7 @@
 }
 
 .nuxt-content li ul, .nuxt-content li ol {
-  @apply ml-4;
-}
-
-.nuxt-content img {
-  max-height: 420px;
+  @apply ml-8;
 }
 
 .nuxt-content img.sm {
@@ -67,6 +63,19 @@
   @apply text-gray-800 text-sm mt-1;
 }
 
+.nuxt-content figure {
+  text-align: center;
+}
+
+.nuxt-content figure .h680 {
+  max-height: 620px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .nuxt-content figure a {
   @apply inline-block;
 }
@@ -82,4 +91,8 @@
 .nuxt-content table th {
   @apply text-left uppercase;
   background-color: #e7e9ee;
+}
+
+.nuxt-content pre {
+  font-size: 0.8em;
 }

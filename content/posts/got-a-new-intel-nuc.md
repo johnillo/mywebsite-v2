@@ -30,9 +30,11 @@ Dual-booting Windows on my X220 is not an option as I think it will struggle wit
 With these issues, I made up my mind and ordered an Intel NUC 10 Core i7-10710U from a seller in Shopee. I picked this model so I could attach the Fujitsu's SSD for my Windows environment.
 
 <figure>
-  <a href="/media/got-a-new-intel-nuc-02.jpg" target="_blank">
-    <img src="/media/got-a-new-intel-nuc-02.jpg" />
-  </a>
+  <div class="h680">
+    <a href="/media/got-a-new-intel-nuc-02.jpg" target="_blank">
+      <img src="/media/got-a-new-intel-nuc-02.jpg" />
+    </a>
+  </div>
   <figcaption>Intel NUC i7 10th Gen, 16GB DDR4-2666 SODIMM, Kingston A2000 500GB M.2 SSD</figcaption>
 </figure>
 
@@ -41,9 +43,11 @@ The NUC is a bare-bones kit, meaning it doesn't include the RAM and storage. So 
 The purchase cost me a total of **PHP 37,500** - PHP 30,000 for the PC kit and PHP 7,500 for the RAM and SSD. I ordered on October 9th (Friday) and received the items on the 13th (Tuesday). Although they are from the same vendor, the memory and storage came first before the PC.
 
 <figure>
-  <a href="/media/got-a-new-intel-nuc-03.jpg" target="_blank">
-    <img src="/media/got-a-new-intel-nuc-03.jpg" />
-  </a>
+  <div class="h680">
+    <a href="/media/got-a-new-intel-nuc-03.jpg" target="_blank">
+      <img src="/media/got-a-new-intel-nuc-03.jpg" />
+    </a>
+  </div>
   <figcaption>Unboxing the NUC</figcaption>
 </figure>
 
@@ -64,9 +68,11 @@ The unit has a glossy front panel and top surface. I'm not a fan of such materia
 The power brick is noticeably longer than the unit itself. Intel didn't bother relabeling the power adapter, so I was able to [find the product on the manufacturer's website](https://www.fspgroupusa.com/ecommerce/fsp230-ajan3.html). It is a good thing, though, now that I know where to find a replacement in case mine fails.
 
 <figure>
-  <a href="/media/got-a-new-intel-nuc-06.jpg" target="_blank">
-    <img src="/media/got-a-new-intel-nuc-06.jpg" />
-  </a>
+  <div class="h680">
+    <a href="/media/got-a-new-intel-nuc-06.jpg" target="_blank">
+      <img src="/media/got-a-new-intel-nuc-06.jpg" />
+    </a>
+  </div>
   <figcaption>The included accessories with the kit</figcaption>
 </figure>
 
@@ -98,9 +104,11 @@ The NUC has sufficient ports for my needs. There are 3 USB 3.0 and 2 USB-C ports
 To install the RAM and storage, I flipped the unit upside-down on a flat surface, loosened the rubber feet screws on the four corners, then pulled up the bottom cover. Since this model supports an internal SATA drive, a flex cable is attached to the bottom lid, so I needed to be more careful with it.
 
 <figure>
-  <a href="/media/got-a-new-intel-nuc-12.jpg" target="_blank">
-    <img src="/media/got-a-new-intel-nuc-12.jpg" />
-  </a>
+  <div class="h680">
+    <a href="/media/got-a-new-intel-nuc-12.jpg" target="_blank">
+      <img src="/media/got-a-new-intel-nuc-12.jpg" />
+    </a>
+  </div>
   <figcaption>Attached the memory and storage modules</figcaption>
 </figure>
 

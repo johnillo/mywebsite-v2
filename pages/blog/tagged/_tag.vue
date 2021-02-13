@@ -1,6 +1,6 @@
 <template>
-  <div class="container mx-auto px-4 sm:md-0 py-4 leading-relaxed">
-    <NuxtLink to="/blog" class="hover:underline text-blue-700 mb-4">← Blog</NuxtLink>
+  <div class="container mx-auto px-4 sm:md-0 py-4 leading-relaxed max-w-4xl">
+    <Nav/>
     <h1 class="text-3xl mt-4 mb-4">Posts tagged "{{ this.tag }}"</h1>
     <div>
       <input class="searchbox mb-4 block py-2 px-4 w-full bg-gray-300 rounded" type="text" placeholder="Search posts" @input="search" />

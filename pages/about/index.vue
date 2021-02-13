@@ -1,6 +1,6 @@
 <template>
-  <div class="container mx-auto px-4 sm:md-0 py-4 leading-relaxed">
-    <NuxtLink to="/" class="hover:underline text-blue-700 mb-4">← Back</NuxtLink>
+  <div class="container mx-auto px-4 sm:md-0 py-4 leading-relaxed max-w-4xl">
+    <Nav/>
     <nuxt-content :document="intro" />
     <h1 class="text-3xl my-4 mt-8 border-b border-gray-400">Work History</h1>
     <div>

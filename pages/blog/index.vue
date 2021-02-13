@@ -1,7 +1,7 @@
 <template>
-  <div class="container mx-auto px-4 sm:md-0 py-4 leading-relaxed">
-    <NuxtLink to="/" class="hover:underline text-blue-700 mb-4">← Home</NuxtLink>
-    <h1 class="text-3xl mt-4 mb-4">Blog</h1>
+  <div class="container mx-auto px-4 sm:md-0 py-4 leading-relaxed max-w-4xl">
+    <Nav/>
+    <h1 class="text-3xl mb-4">Blog</h1>
     <div>
       <input class="searchbox" type="text" placeholder="Search" @input="search" />
     </div>

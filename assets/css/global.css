@@ -51,7 +51,7 @@ input[type="text"].searchbox:focus {
 }
 
 div.scroll-to-top {
-  @apply fixed py-2 px-4 shadow-lg bg-red-600 text-white uppercase rounded-full text-sm cursor-pointer text-lg font-bold select-none;
+  @apply fixed py-2 px-4 shadow-lg bg-orange-600 text-white uppercase rounded-full text-sm cursor-pointer text-lg font-bold select-none;
   bottom: 1em;
   right: 1em;
   -ms-touch-action: manipulation;

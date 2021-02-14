@@ -23,7 +23,7 @@ The site uses cookies (small data files transferred onto computers or devices by
 ## Opt out
 
 <iframe
-    style="border: 0; height: 200px; width: 100%;"
+    style="border: 0; height: 140px; width: 100%;"
     src="https://analytics.johnespiritu.dev/index.php?module=CoreAdminHome&action=optOut&language=en&backgroundColor=&fontColor=1e1e1e&fontSize=14px&fontFamily=Helvetica%2C%20%22Arial%22">
 </iframe>
 

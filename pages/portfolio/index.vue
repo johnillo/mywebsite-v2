@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto px-4 sm:md-0 py-4 leading-relaxed max-w-4xl">
     <Nav/>
-    <h1 class="text-3xl mt-4 mb-6 border-b border-gray-400">Projects</h1>
+    <h1 class="text-3xl mt-4 mb-6 border-b border-gray-400">Portfolio</h1>
     <div>
       <article class="mb-6" v-for="(project, index) in this.projects" :key="index">
         <div class="font-bold text-lg">{{ project.name }}</div>

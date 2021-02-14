@@ -18,7 +18,7 @@ My certificate was set to be delivered to my residence around March 2020. Howeve
 
 I emailed the [Japan Foundation Manila](https://jfmo.org.ph) (host institution) several times, to which they replied that they had sent it in March 2020. For many months, I've waited and got nothing. It got lost in transit probably.
 
-The bosses were kind enough to grant me my salary bonus even when I didn't have a copy of my certificate yet. I instead presented a screenshot of my results from the online portal together with my test voucher to prove I did pass the test.
+The bosses were kind enough to grant me my salary bonus even when I didn't have a copy of my certificate yet. I instead presented a screenshot of my online test results together with my test voucher to prove I did pass the test.
 
 ### Requesting for re-issuance
 

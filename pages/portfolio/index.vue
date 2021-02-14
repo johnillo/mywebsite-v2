@@ -1,26 +1,36 @@
 <template>
   <div class="container mx-auto px-4 sm:md-0 py-4 leading-relaxed max-w-4xl">
     <Nav/>
-    <h1 class="text-3xl mt-4 mb-6 border-b border-gray-400">Portfolio</h1>
-    <div>
-      <article class="mb-6" v-for="(project, index) in this.projects" :key="index">
-        <div class="font-bold text-lg">{{ project.name }}</div>
-        <div class="text-sm">
-          <a :href="project.url" class="external-link text-link mr-2" target="_blank">Open App</a>
-          <a :href="project.github" class="external-link text-link mr-2" target="_blank">Open in GitHub</a>
-        </div>
-        <div class="my-2">{{ project.description }}</div>
-        <div class="inline-block text-sm mr-2 text-gray-800 px-2 bg-gray-400 rounded" v-for="(tech, index) in project.tech" :key="index">
-          {{ tech }}
-        </div>
-      </article>
+    <h1 class="text-3xl mb-6 border-b border-gray-400">Portfolio</h1>
+    <div class="mb-16">
+      A collection of some stuff I made.
+      <ul class="mt-8 mb-4">
+        <li>
+          <NuxtLink class="pl-24 relative block border border-gray-400 rounded px-4 py-2 shadow-inner mb-4 hover:bg-blue-100 hover:border-blue-300 cursor-pointer" to="/portfolio/webapps">
+            Web Apps
+            <img class="absolute" src="/images/laptop.png" style="width:75px; left: 0.2em; top: -0.8em;"/>
+          </NuxtLink>
+        </li>
+        <li>
+          <NuxtLink class="pl-24 relative block border border-gray-400 rounded px-4 py-2 shadow-inner mb-4 cursor-default opacity-50" to="">
+            Electronics <i>- Not available yet</i>
+            <img class="absolute" src="/images/nixie.png" style="width:75px; left: 0.1em; top: -1em;"/>
+          </NuxtLink>
+        </li>
+        <li>
+          <NuxtLink class="pl-24 relative block border border-gray-400 rounded px-4 py-2 shadow-inner mb-4 cursor-default opacity-50" to="">
+            Artworks <i>- Not available yet</i>
+            <img class="absolute" src="/images/artboard.png" style="width:70px; left: 0.75em; top: 0em;"/>
+          </NuxtLink>
+        </li>
+      </ul>
     </div>
     <Footer/>
   </div>
 </template>
 
-<script>
-export default {
+<script> 
+ export default {
   async asyncData ({ $content }) {
     const { projects } = await $content('projects').fetch()
     return {

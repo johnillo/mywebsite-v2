@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto px-4 sm:md-0 py-4 leading-relaxed max-w-4xl">
     <Nav/>
-    <PortfolioHome/>
+    <PortfolioHomeLink/>
     <h1 class="text-3xl mb-6 border-b border-gray-400">Web Apps</h1>
     <div>
       <article class="mb-6" v-for="(project, index) in this.projects" :key="index">

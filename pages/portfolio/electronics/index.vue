@@ -7,9 +7,9 @@
       Arduino, Raspberry Pi, and other simple electronics projects I did as a hobby.
     </p>
     <div class="blog-index mb-16">
-      <article class="flex mb-4" v-for="(post, index) in posts" :key="index">
+      <article class="flex mb-8 md:mb-4 flex-col md:flex-row justify-center" v-for="(post, index) in posts" :key="index">
         <div
-          class="flex flex-col justify-center overflow-hidden border border-gray-400 bg-gray-200 shadow-inner mr-4 rounded"
+          class="flex flex-col justify-center overflow-hidden border border-gray-400 bg-gray-200 shadow-inner mr-4 rounded mb-2"
           style="width: 180px; height: 100px; min-width: 180px;">
           <img :src="post.thumbnail"/>
         </div>
@@ -19,7 +19,7 @@
             {{ post.title }}
           </p>
           </NuxtLink>
-          <p class="p-0 truncate">{{ post.description }}</p>
+          <p class="p-0">{{ post.description }}</p>
           <ul class="mt-1">
             <li
               class="inline-block mr-2 text-xs bg-gray-200 text-gray-900 rounded px-2 border border-gray-400 shadow-inner"

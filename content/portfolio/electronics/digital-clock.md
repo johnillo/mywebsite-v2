@@ -1,9 +1,9 @@
 ---
 title: Digital Clock
-description: Digital clock made with Arduino, 7-segment displays, and tupperware.
+description: "Digital clock made with Arduino, 7-segment displays, and tupperware."
 thumbnail: /portfolio/electronics/digital-clock13.jpg
 sort: 1
-tech: [Arduino, Logic Gates, 7-Segment Display]
+tech: ["Arduino", "Logic Gates", "7-Segment Display"]
 ---
 
 I was inspired to make a clock that looks like a Steins;Gate [Divergence Meter](https://steins-gate.fandom.com/wiki/Divergence_Meter). However, I didn't have any resources to build it. Electronic parts are quite pricey and hard to come by in my location. As a beginner, it's best to start with simple projects first.

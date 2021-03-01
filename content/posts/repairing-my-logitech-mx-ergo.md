@@ -3,7 +3,7 @@ title: Repair and Review of my Logitech MX Ergo
 description: Repaired my trackball's broken mouse buttons by reapplying the spring tensions, and also wrote a review of the product.
 tags: [personal, tutorial, review]
 createdAt: 2020-09-09
-updatedAt: 2020-09-09
+updatedAt: 2021-03-01
 ---
 
 There was a time that I wanted to get unusual yet convenient tools for my workspace, which then lead me to learn about ergonomic equipment and trackballs.
@@ -166,6 +166,17 @@ Do a final test of the switches after putting back the covers. Finally, reassemb
 </figure>
 
 I think most mice have the same mechanism and are repairable with similar steps above. Overall, I think the repair is easy to do.
+
+#### Update 2021-03-01
+
+After almost six months from the last adjustment of the mouse clicker, it gave up again. The metal also looks corroded, so I think it won't last long even if I adjust it again.
+
+Since the metal spring is the only problem, we can get one from a new clicker, which you can cheaply buy from online shops. I was able to get two spares from my manager.
+
+###### Omron D2FC-F-7N(10M)
+
+- [Amazon](https://www.amazon.com/Switch-Microswitch-Switches-Logitech-D2FC-F-7N/dp/B07KJ5WGSZ/ref=sr_1_3?dchild=1&keywords=d2fc-f-7n%2810m%29&qid=1614605704&sr=8-3)
+- [Lazada (PH)](https://www.lazada.com.ph/products/5pcs-omron-mouse-micro-switch-d2fc-f-7n-10m-for-logitech-microsoft-button-i1621358171-s6954098515.html?spm=a2o4l.searchlist.list.55.661040a6RZRMkB&search=1)
 
 ## Product Review
 

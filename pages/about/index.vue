@@ -17,6 +17,14 @@
         <li v-for="(skill, index) in skills" class="skill-tag" :key="index">{{ skill }}</li>
       </ul>
     </template>
+    <h1 class="text-2xl my-4 mt-8 border-b border-gray-400">Certifications</h1>
+    <div>
+      <div class="mb-4" v-for="(cert, index) in info.certifications" :key="index">
+        <h3 class="text-xl">{{ cert.title }}</h3>
+        <p class="text-sm text-gray-700">{{ cert.date }}</p>
+        <p>{{ cert.description }}</p>
+      </div>
+    </div>
     <h1 class="text-2xl my-4 mt-8 border-b border-gray-400">Contact</h1>
     <div class="mb-4">
       I'm currently not available for hire. But if you'd like to contact me regarding a topic in this website or something

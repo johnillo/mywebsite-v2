@@ -67,6 +67,13 @@
         "SQLite",
         "Tomcat"
       ]
-    }
+    },
+    "certifications": [
+      {
+        "title": "Japanese-Language Proficiency Test (JLPT) - N4",
+        "date": "2020 JAN",
+        "description": "N4 is the level that measures the ability to understand basic Japanese."
+      }
+    ]
   }
 }

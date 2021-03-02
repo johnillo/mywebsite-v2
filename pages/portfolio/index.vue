@@ -18,8 +18,8 @@
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink class="pl-24 relative block border border-gray-400 rounded px-4 py-2 shadow-inner mb-4 cursor-default opacity-50" to="">
-            Artworks <i>- Not available yet</i>
+          <NuxtLink class="pl-24 relative block border border-gray-400 rounded px-4 py-2 shadow-inner mb-4 hover:bg-blue-100 hover:border-blue-300 cursor-pointer" to="/portfolio/artworks">
+            Artworks
             <img class="absolute" src="/images/artboard.png" style="width:70px; left: 0.75em; top: 0em;"/>
           </NuxtLink>
         </li>
@@ -29,7 +29,7 @@
   </div>
 </template>
 
-<script> 
+<script>
  export default {
   async asyncData ({ $content }) {
     const { projects } = await $content('projects').fetch()

@@ -2,6 +2,8 @@
 title: Received my certificate for Dec 2019 JLPT (N4)
 description: Finally received my JLPT N4 certificate after almost a year.
 tags: [personal]
+createdAt: 2021-02-14
+updatedAt: 2021-02-14
 ---
 
 I passed the JLPT N4 on my second attempt in December 2019 after failing the July exams. Currently, I am learning Japanese only through self-study, so passing N4 this way is quite an achievement and something to be proud of.

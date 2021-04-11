@@ -1,7 +1,7 @@
 ---
 title: How I do my computing
 createdAt: 2020-07-01
-updatedAt: 2021-02-12
+updatedAt: 2021-04-11
 ---
 
 I spend most of my time in front of computers and electronic devices. I thought of creating this journal to document the evolution of my computing setup from time to time.
@@ -12,7 +12,7 @@ I spend most of my time in front of computers and electronic devices. I thought 
 
 _Acquired on September 2018_
 
-I use a second-hand Thinkpad X220 as my daily driver, which I purchased from [TipidPC](https://tipidpc.com/) in September 2018 for around $230. To those who aren't familiar, it's an old computer with a bit outdated specs in today's standards. However, it can still handle most of the basic tasks and web development very well. I don't play PC games, so the specs are good enough for me. Compiling (e.g. AUR builds) also works well enough, though a bit slow compared to a modern computer.
+I use a second-hand Thinkpad X220 as my daily driver, which I purchased from [TipidPC](https://tipidpc.com/) in September 2018 for around Php 12,000. To those who aren't familiar, it's an old computer with a bit outdated specs in today's standards. However, it can still handle most of the basic tasks and web development very well. I don't play PC games, so the specs are good enough for me. Compiling (e.g. AUR builds) also works well enough, though a bit slow compared to a modern computer.
 
 | Component | Specs                                        |
 | ---       | -----                                        |
@@ -31,13 +31,17 @@ The reasons why I love this ThinkPad over other brands are:
 * Linux support - Most ThinkPads are compatible with GNU/Linux OS and drivers. The ArchWiki has a comprehensive list [here](https://wiki.archlinux.org/index.php/Laptop/Lenovo).
 * Repairability - Most parts are user-replaceable, which you can readily find on the internet. I replaced its keyboard once, and it is fairly easy to do.
 
-The display is okay, but I find it insufficient for software development and graphic design. The speakers and track pad are also not that good. I disabled the track pad from the BIOS settings because I use the TrackPoint if not using my trackball mouse.
-
-At work, I use a company-issued 2016 13" MacBook Pro with macOS Catalina. I like the minimal design, quality, excellent sound system, and display except for the keyboard, which I think is horrible. Though if given a choice, I would very much like to replace it with a ThinkPad or an XPS with GNU/Linux.
+The display is okay, but I find it insufficient for software development and graphic design. The speakers and track pad are bad. I disabled the track pad from the BIOS settings because I use the TrackPoint if not using my trackball mouse.
 
 ### Desktop (Intel NUC Core i7-10710U)
 
 _Acquired on October 2020_
+
+<figure class="mt-4">
+  <a href="/media/how-i-do-my-computing-04.jpg" target="_blank">
+    <img src="/media/how-i-do-my-computing-04.jpg" />
+  </a>
+</figure>
 
 An urgent project at work prompted me to buy a new Windows machine to replace my malfunctioning and slow Fujitsu laptop. I bought an Intel NUC i7 10th gen (BXNUC10I7FNH1) from [Shopee](https://shopee.ph/).
 
@@ -58,13 +62,15 @@ You can read more about it [here](/blog/got-a-new-intel-nuc).
 
 _Acquired on June 2020_
 
-A second-hand 1080p IPS monitor I bought from Lazada for around Php 3,500. It has an anti-glare surface and a highly adjustable stand - a perfect monitor for my standards.
+A second-hand FHD IPS monitor I bought from Lazada for around Php 3,500. It has an anti-glare surface and a highly adjustable stand - a perfect monitor for my needs.
 
 ## Accessories
 
 I use a [Kingston HyperX tenkeyless mechanical keyboard](https://www.amazon.com/s?k=kingston+hyperx+tenkeyless&ref=nb_sb_noss_2) (Cherry MX red) that my sister gave to me. I find it more enjoyable to type on a mechanical keyboard. I'm hoping to get an ErgoDox EZ ergonomic keyboard soon once I earn enough moolah.
 
 A [Logitech MX Ergo trackball](https://www.amazon.com/s?k=logitech+mx+ergo&i=electronics&ref=nb_sb_noss) mouse is my primary pointing device on all computers. It's initially a bit challenging to use, but once you get used to it, I think it's way more efficient than using a regular mouse. I wrote a review and repair summary of the device [here](http://localhost:3000/blog/repairing-my-logitech-mx-ergo).
+
+For audio and video chat, I use a [SteelSeries Arctic 5](https://steelseries.com/gaming-headsets/arctis-5) gaming headset, which I purchased in April 2021. This is to replace the SonicEar bluetooth speaker that I got as a present because it recently keeps on disconnecting for no reason.
 
 ## Software
 
@@ -110,15 +116,22 @@ When I upgraded my SSD to 512GB, I took the time to try out Wayland and Sway (th
 
 To be able to type Japanese characters, I bootstrap `uim` (universal input method) and `anthy` with X11. I toggle the Japanese input method using the `meta + /` combo.
 
-I use `i3-gaps`, a tiling window manager, for navigating through my X11 applications. It is lightweight and fast compared to using the usual Linux desktop environments and comes with `i3-status` for monitoring the machine status, volume, connectivity, and time. I have configured it to use vi-like keybindings for more comfortable keyboard accessibility.
+I use `i3-gaps`, a tiling window manager, for navigating through my X11 applications. It is lightweight and fast compared to using the usual Linux desktop environments and comes with `i3-status` for monitoring the machine status, volume, connectivity, and time. I configured it to use vi-like keybindings for more comfortable keyboard accessibility.
 
-A tiling window manager is not for everyone as it is aimed for power users and terminal-centric workflows. It also doesn't work nicely with most GUI apps and dialog windows.
+A tiling window manager isn't for everyone as it is aimed for power users and terminal-centric workflows. It also doesn't work nicely with most GUI apps and dialog windows.
 
 <figure class="mt-4">
-  <a href="/media/how-i-do-my-computing-01.png" target="_blank">
-    <img src="/media/how-i-do-my-computing-01.png" />
+  <a href="/media/how-i-do-my-computing-06.png" target="_blank">
+    <img src="/media/how-i-do-my-computing-06.png" />
   </a>
-  <figcaption>Firefox and Termite running on i3, captured with Flameshot</figcaption>
+  <figcaption>X220 Environment</figcaption>
+</figure>
+
+<figure class="mt-4">
+  <a href="/media/how-i-do-my-computing-03.png" target="_blank">
+    <img src="/media/how-i-do-my-computing-03.png" />
+  </a>
+  <figcaption>NUC Environment</figcaption>
 </figure>
 
 My X220 has a resolution of only 1366x768, so I configured `i3-gaps` to maximize the screen estate, and adjusted the border and focus colors to make it less distracting. The default fonts are a bit blurry on small sizes, so I switched the `i3-status` fonts to a monospace pixel font called [Terminus](https://files.ax86.net/terminus-ttf/).
@@ -135,13 +148,13 @@ I also have a Veracrypt-encrypted thumb drive (32GB) for storing sensitive files
 
 I prefer to apply a unified color scheme across my terminal emulators, text editors, and other customizable applications.
 
-I prefer dark themes over light ones when coding. However, my eyes don't do very well in light over dark themes when reading articles and blog posts, perhaps because of my myopia.
+Dark theme feels right for terminal and coding. However, my eyes don't do very well in light over dark themes when reading articles and blog posts, perhaps because of my myopia.
 
-My favorite color theme is the [Atom One Dark](https://github.com/atom/one-dark-ui), which is the default color set used by the Atom text editor. The colors in this palette are generally soft in the eye and have perfect contrast for displaying source codes. Many theme designers ported One Dark to applications I commonly use, such as Firefox, VS Code, and iTerm.
+From Atom One Dark, I now use [Gruvbox Material](https://github.com/sainnhe/gruvbox-material) color scheme.
 
 <figure class="mt-4">
-  <a href="/media/how-i-do-my-computing-02.png" target="_blank">
-    <img src="/media/how-i-do-my-computing-02.png" />
+  <a href="/media/how-i-do-my-computing-05.png" target="_blank">
+    <img src="/media/how-i-do-my-computing-05.png" />
   </a>
-  <figcaption>i3-status, code-oss and nvim with One Dark colorscheme</figcaption>
+  <figcaption>firefox, i3-status, vs-code and nvim with gruvbox material colorscheme</figcaption>
 </figure>

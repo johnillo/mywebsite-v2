@@ -27,8 +27,7 @@
     </div>
     <h1 class="text-2xl my-4 mt-8 border-b border-gray-400">Contact</h1>
     <div class="mb-4">
-      I'm currently not available for hire. But if you'd like to contact me regarding a topic in this website or something
-      else, you can contact me at <b>hkri [at] protonmail [dot] com</b>.
+      If you have a concern regarding a topic on this website or something else, you can contact me via <b>hkri [at] protonmail [dot] com</b>.
     </div>
     <ScrollToTop />
     <Footer/>

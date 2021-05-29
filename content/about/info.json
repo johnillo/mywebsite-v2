@@ -4,19 +4,19 @@
       {
         "company": "Bizwind Philippines, Inc.",
         "position": "Software Developer",
-        "period": "2018 APR - PRESENT",
-        "description": "Designs, maintains, and creates various in-house and client web applications."
+        "period": "2018 APR ~ PRESENT",
+        "description": "Develops and maintains PHP and Java web applications for clients in Japan."
       },
       {
         "company": "",
         "position": "Freelance Software Developer",
-        "period": "2015 - PRESENT",
+        "period": "2015 ~ PRESENT",
         "description": "Personal and commission projects development. "
       },
       {
         "company": "Infopiphany IT Solutions",
         "position": "Software Developer",
-        "period": "2017 JUN - 2018 MAR",
+        "period": "2017 JUN ~ 2018 MAR",
         "description": "Development of mobile and desktop ERP systems using .NET framework, RESTful web services, and React Native."
       }
     ],
@@ -48,6 +48,7 @@
       "Development": [
         "Git",
         "Gulp",
+        "i18n/l10n",
         "Itamae",
         "Jenkins",
         "Shell",

@@ -4,9 +4,11 @@ description: Privacy policy.
 nodate: true
 ---
 
-I use an open-source analytics tool called [Matomo](https://matomo.org/) to get insights and logs of traffic on this website. The data don't go elsewhere and are only stored on my server, used to stop misuse, and improve this website and its contents.
+An open-source analytics tool called [Matomo](https://matomo.org/) is installed on this site to get insight into the reader's activities.
+The data collected is being used for the improvement of this site and its contents.
+No personally identifiable information is ever collected.
 
-To know more about how Matomo works, please visit [this page](https://matomo.org/about/).
+To know more about how Matomo works, [click here](https://matomo.org/about/).
 
 ## Usage data collected
 

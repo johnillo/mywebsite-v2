@@ -7,10 +7,10 @@
     </div>
     <div class="blog-index">
       <article class="mb-2" v-for="(post, index) in posts" :key="index">
-        <NuxtLink :to="`/blog/${post.slug}`" class="hover:opacity-75">
-          <span class="text-xl p-0" :title="post.description">{{ post.title }}</span>
+        <NuxtLink :to="`/blog/${post.slug}`" class="hover:underline">
+          <span class="text-md p-0" :title="post.description">{{ post.title }}</span>
         </NuxtLink>
-        <div class="text-sm text-gray-600 mr-2">
+        <div class="text-xs text-gray-600 mr-2">
           {{ $dateFns.format(post.createdAt, 'yyyy/MM/dd') }}
         </div>
       </article>

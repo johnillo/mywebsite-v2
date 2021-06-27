@@ -76,6 +76,16 @@
   justify-content: center;
 }
 
+.nuxt-content figure img {
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+.nuxt-content figure img.full {
+  max-width: 100%;
+}
+
 .nuxt-content figure a {
   @apply inline-block;
 }
@@ -95,4 +105,8 @@
 
 .nuxt-content pre {
   font-size: 0.8em;
+}
+
+.nuxt-content table.no-border td, .nuxt-content table.no-border th {
+  @apply border-none;
 }

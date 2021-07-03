@@ -6,6 +6,7 @@
     <div class="text-center">
       <NuxtLink to="/about" class="hover:underline text-gray-900 mr-4">About</NuxtLink>
       <NuxtLink to="/portfolio" class="hover:underline text-gray-900 mr-4">Portfolio</NuxtLink>
+      <NuxtLink to="/til" class="hover:underline text-gray-900 mr-4">TIL</NuxtLink>
       <NuxtLink to="/blog" class="hover:underline text-gray-900">Blog</NuxtLink>
     </div>
   </div>

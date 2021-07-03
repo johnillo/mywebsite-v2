@@ -6,6 +6,9 @@
     <li class="inline-block mr-4">
       <NuxtLink to="portfolio" class="hover:underline">Portfolio</NuxtLink>
     </li>
+    <li class="inline-block mr-4">
+      <NuxtLink to="til" class="hover:underline">TIL</NuxtLink>
+    </li>
     <li class="inline-block">
       <NuxtLink to="blog" class="hover:underline">Blog</NuxtLink>
     </li>

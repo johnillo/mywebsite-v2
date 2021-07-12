@@ -42,7 +42,7 @@
   max-height: 180px;
 }
 
-.nuxt-content p code, .nuxt-content code {
+.nuxt-content p code, .nuxt-content :not(pre) > code {
   @apply text-red-800;
   font-size: 0.9em;
 }

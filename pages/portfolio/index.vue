@@ -6,8 +6,8 @@
       A collection of some stuff I made.
       <ul class="mt-8 mb-4">
         <li>
-          <NuxtLink class="pl-24 relative block border border-gray-400 rounded px-4 py-2 shadow-inner mb-4 hover:bg-blue-100 hover:border-blue-300 cursor-pointer" to="/portfolio/webapps">
-            Web Apps
+          <NuxtLink class="pl-24 relative block border border-gray-400 rounded px-4 py-2 shadow-inner mb-4 hover:bg-blue-100 hover:border-blue-300 cursor-pointer" to="/portfolio/software">
+            Software
             <img class="absolute" src="/images/laptop.png" style="width:75px; left: 0.2em; top: -0.8em;"/>
           </NuxtLink>
         </li>

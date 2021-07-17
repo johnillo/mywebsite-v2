@@ -1,6 +1,17 @@
 {
   "projects": [
     {
+      "name": "Tic-Tac-Toe",
+      "description": "A simple tic-tac-toe game made with HTML, CSS, and vanilla JS.",
+      "url": "https://johnespiritu.dev/app/tic-tac-toe",
+      "github": "https://github.com/johnillo/tic-tac-toe",
+      "tech": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
       "name": "Tipid - Savings Tracker",
       "description": "Helps keep track of your income and expenses. Data are stored locally in the user's browser via IndexedDB.",
       "url": "https://johnespiritu.dev/app/savings-tracker",
